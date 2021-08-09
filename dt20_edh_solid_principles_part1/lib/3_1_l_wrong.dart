@@ -1,5 +1,5 @@
-// WRONG or BAD L-iskov Substitution Principle
-// [X] Membuat turunan yang bukan merupakan jenis dari parent
+/// WRONG or BAD L-iskov Substitution Principle
+/// [X] Membuat turunan yang bukan merupakan jenis dari parent
 
 class Duck {
   void swim() {

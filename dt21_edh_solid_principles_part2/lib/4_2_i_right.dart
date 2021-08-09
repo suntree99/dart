@@ -1,5 +1,5 @@
-// RIGHT I-nterface Segregation Principle
-// Membuat interface dengan field yang dibutuhkan class pemakainya
+/// RIGHT I-nterface Segregation Principle
+/// Membuat interface dengan field yang dibutuhkan class pemakainya
 
 abstract class Hero {
   void regularAttack();

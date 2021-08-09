@@ -1,5 +1,5 @@
-// WRONG S-ingle Responsibility Principle
-// [X] Menggabungkan fungsi yang merupakan fungsi bagian lain
+/// WRONG S-ingle Responsibility Principle
+/// [X] Menggabungkan fungsi yang merupakan fungsi bagian lain
 
 class Car {
   void turnOnCar() {

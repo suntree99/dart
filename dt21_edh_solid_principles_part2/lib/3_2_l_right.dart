@@ -1,5 +1,5 @@
-// RIGHT L-iskov Substitution Principle
-// Membuat turunan sejenis dengan parent yang dapat mewarisi
+/// RIGHT L-iskov Substitution Principle
+/// Membuat turunan sejenis dengan parent yang dapat mewarisi
 
 class Duck {
   void swim() {

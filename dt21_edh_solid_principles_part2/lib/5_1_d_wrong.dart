@@ -1,4 +1,4 @@
-// WRONG D-ependency Inversion Principle
+/// WRONG D-ependency Inversion Principle
 
 class User {
   // User related things

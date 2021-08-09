@@ -1,5 +1,5 @@
-// FutureOr -> berfungsi untuk membuat abstract dapat menyediakan 2 opsi
-// Bisa Future<typeData> atau typeData
+// FUTUREOR -> Berfungsi untuk membuat abstract dapat menyediakan 2 opsi
+// Bisa Future<typeData> atau(OR) typeData
 
 import 'dart:async';
 
@@ -46,7 +46,7 @@ class FirebaseStorage implements IDatastorage {
 
   @override
   FutureOr<int> getUserAge(User user) async {
-    // amil data di firebase
+    // ambil data di firebase
     await Future.delayed(Duration(seconds: 2));
     return 20;
   }

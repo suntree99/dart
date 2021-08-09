@@ -2,7 +2,7 @@ import 'dart:io';
 
 void main(List<String> arguments) {
 
-  // Perulangan For
+  /// Perulangan For
 
   // for (int counter = 9; counter >= 1; counter -= 2) {
   //   print('halo');
@@ -18,7 +18,7 @@ void main(List<String> arguments) {
 
   // print('==========');
 
-  // Perulangan Do While
+  /// Perulangan Do While
 
   // int x = 0;
   // do {
@@ -26,11 +26,12 @@ void main(List<String> arguments) {
   //   x += 1;
   // } while(x < 5);
 
-  // Unary Operator
+  /// Unary Operator
 
   int a,b;
   a = 10;
-  b = ++a;
+  // b = a++; // nilai a dimasukkan dulu ke b (10), kemudian a di-increment (11)
+  b = ++a; // nilai a di-increment dulu (11), kemudain dimasukkan ke b (11)
   print(a.toString() + '-' + b.toString());
 
 }

@@ -1,3 +1,6 @@
+/// GENERICS - Mengubah tipe data menjadi generic type atau general
+/// Generics dapat digunakan untuk semua tipe data
+
 import 'package:dt16_edh_generics_or_generic_type/datetime_secure_box.dart';
 import 'package:dt16_edh_generics_or_generic_type/int_secure_box.dart';
 import 'package:dt16_edh_generics_or_generic_type/secure_box.dart';
@@ -5,6 +8,7 @@ import 'package:dt16_edh_generics_or_generic_type/secure_box.dart';
 void main(List<String> arguments) {
   var boxInt = IntSecureBox(100, '123');
   var boxDateTime = DateTimeSecureBox(DateTime.now(), '123');
+  // Menggunakan Generics - SecureBox<T>
   var boxT = SecureBox<String>('Hallo', '123');
   var boxClass = SecureBox<Person>(Person('Dodi'), '123');
 

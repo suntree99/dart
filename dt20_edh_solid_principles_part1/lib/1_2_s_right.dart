@@ -1,5 +1,5 @@
-// RIGHT S-ingle Responsibility Principle
-// Memudahkan dalam pencarian bug saat terjadi error karena tersegmentasi
+/// RIGHT S-ingle Responsibility Principle
+/// Memudahkan dalam pencarian bug saat terjadi error karena tersegmentasi
 
 class Car {
   AirConditioner airConditioner;

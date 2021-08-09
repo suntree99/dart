@@ -3,7 +3,7 @@ import 'dart:io';
 void main(List<String> arguments) {
   int number = int.tryParse(stdin.readLineSync());
 
-  // Percabangan IF
+  /// Percabangan IF
 
   // if(number > 0){
   //   print('positif');
@@ -21,7 +21,7 @@ void main(List<String> arguments) {
 
   // print((number > 0) ? number : number * -1);
 
-  // Percabangan Switch
+  /// Percabangan Switch
 
   // if(number == 0){
   //   print('nol');

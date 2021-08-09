@@ -1,15 +1,15 @@
-// RIGHT D-ependency Inversion Principle
-// High-level dan Low-level module bergantung pada Abstraction (perantara)
-// High-level module (fungsi utama) tidak mengalami perubahan
-// Low-level module (fungsi detail) dapat diubah/diedit
-// Pengerjaan setiap level berdiri sendiri tanpa mempengaruhi yang lain
-// Sangat cocok untuk kerja tim (tidak saling menunggu)
+/// RIGHT D-ependency Inversion Principle
+/// High-level dan Low-level module bergantung pada Abstraction (perantara)
+/// High-level module (fungsi utama) tidak mengalami perubahan
+/// Low-level module (fungsi detail) dapat diubah/diedit
+/// Pengerjaan setiap level berdiri sendiri tanpa mempengaruhi yang lain
+/// Sangat cocok untuk kerja tim (tidak saling menunggu)
 
 class User {
   // User related things
 }
 
-// High-level module
+/// High-level module
 class UserManager {
   final IDatastorage datastorage;
 
@@ -20,12 +20,12 @@ class UserManager {
   }
 }
 
-// Abstraction
+/// Abstraction
 abstract class IDatastorage {
   void saveData(User user);
 }
 
-// Low-level module 1
+/// Low-level module 1
 class FirebaseStorage implements IDatastorage {
   @override
   void saveData(User user) {
@@ -34,7 +34,7 @@ class FirebaseStorage implements IDatastorage {
   }
 }
 
-// Low-level module 2
+/// Low-level module 2
 class LocalStorage implements IDatastorage {
   @override
   void saveData(User user) {

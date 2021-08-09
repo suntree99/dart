@@ -1,4 +1,15 @@
+/// OPERATOR OVERRIDING - Menimpa operator dengan aturan yang dibuat sendiri
+
 void main(List<String> arguments) {
+  // int a = 10;
+  // int b = 12;
+
+  // String a = 'Hello ';
+  // String b = 'World';
+
+  // print((a + b)); // Untuk int, + berfungsi menjumlahkan
+  // print((a + b)); // Untuk String, + berfungsi untuk menggabungkan (concat)
+
   Hero a = Hero(10);
   Hero b = Hero(10);
 

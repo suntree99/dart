@@ -1,6 +1,6 @@
-// RIGHT O-pen / Close Principle
-// Tidak menghapus/mengedit fungsi pada class yang sudah ada
-// Menambah fungsi menggunakan class baru dengan extend class sebelumnya
+/// RIGHT O-pen / Close Principle
+/// Tidak menghapus/mengedit fungsi pada class yang sudah ada
+/// Menambah fungsi menggunakan class baru dengan extend class sebelumnya
 
 class MyRobot {
   void talk() {

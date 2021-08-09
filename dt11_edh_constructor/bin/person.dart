@@ -1,3 +1,6 @@
+/// Parameter di Class Person (parent) dibuat Optional Parameter dengan {}
+/// Bisa tanpa parameter () atau dengan parameter (String name = 'no name')
+
 class Person {
   String name;
 

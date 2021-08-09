@@ -1,5 +1,5 @@
-// enum berfungsi untuk membuat pilihan spesifik dengan label
-// cascade berfungsi untuk menyingkat pemanggilan field daari object (..)
+/// ENUM -> Berfungsi untuk membuat pilihan terbatas yang spesifik dengan label
+/// CASCADE -> Berfungsi untuk menyingkat pemanggilan field daari object (..)
 
 void main(List<String> arguments) {
   MonsterUcoa m = MonsterUcoa(status: UcoaStatus.confused);

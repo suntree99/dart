@@ -1,3 +1,7 @@
+/// CLASS - Rancangan/blueprint dari sebuah object, memiliki field dan method
+/// OBJECT - Realisasi/bentuk nyata dari class, yang harus diberikan identifier
+/// Identifier yang belum diisi object akan bernilai NULL
+
 import 'dart:io';
 
 void main(List<String> arguments) {

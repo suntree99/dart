@@ -1,6 +1,6 @@
-// required -> untuk menampikan paksa optional parameter
-// assert -> untuk memastikan kesesuaian input value dari parameter
-// try catch -> untuk menangani perintah yang berkemungkinan error
+/// REQUIRED -> Untuk menampikan paksa optional parameter
+/// ASSERT -> Untuk memastikan kesesuaian input value dari parameter
+/// TRY CATCH -> Untuk menangani perintah yang berkemungkinan error
 
 import 'package:meta/meta.dart';
 

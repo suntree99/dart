@@ -1,4 +1,4 @@
-// BEFORE O-pen / Close Principle
+/// BEFORE O-pen / Close Principle
 
 class MyRobot {
   void talk() {

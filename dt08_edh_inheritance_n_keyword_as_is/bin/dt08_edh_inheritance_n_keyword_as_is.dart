@@ -23,7 +23,12 @@ void main(List<String> arguments) async {
   // print(m.eatHuman());
   // print(u.swim());
 
+  /// Keywoard AS - harus dipastikan bahwa itu adalah jenis (object) yang tepat
+  /// Jika dalam hal ini object monster adalah yang lain maka akan error
+
   print((monster as MonsterUburUbur).swim());
+
+  /// Keywoard IS dalam if akan memastikan bahwa jenis objectnya sesuai
 
   // for(Monster m in monsters){
   //   if(m is MonsterUburUbur){

@@ -1,4 +1,6 @@
-// Sort -> untuk membuat aturan pengurutan dari class yang dibuat sendiri
+/// SORT -> Untuk membuat aturan method sort() dari class yang dibuat sendiri
+/// Sort dibaut dengan membandingkan (comapreTo) 2 input (a, b) { operasi }
+/// Jika operasi bernilai (-) a lebih dulu, jika (+) b lebih dulu diurutkan
 
 void main(List<String> arguments) {
   List<Person> persons = [
@@ -18,9 +20,9 @@ void main(List<String> arguments) {
 
   persons.sort((p1, p2) {
     if (p1.roleWight.compareTo(p2.roleWight) != 0) {
-      return p1.roleWight - p2.roleWight;
+      return p1.roleWight - p2.roleWight; // Urutkan bobot lebih dahulu
     } else {
-      return p1.age.compareTo(p2.age);
+      return p1.age.compareTo(p2.age); // kemudian urutkan usia
     }
   });
 
@@ -35,6 +37,7 @@ class Person {
 
   Person(this.role, this.age);
 
+  /// Membuat bobot untuk pengurutan
   int get roleWight {
     switch (role) {
       case 'Merchant':

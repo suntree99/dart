@@ -1,5 +1,5 @@
-// WRONG O-pen / Close Principle
-// [X] Mengedit/menghapus/menambah fungsi pada suatu class
+/// WRONG O-pen / Close Principle
+/// [X] Mengedit/menghapus/menambah fungsi pada suatu class
 
 class MyRobot {
   void talk() {

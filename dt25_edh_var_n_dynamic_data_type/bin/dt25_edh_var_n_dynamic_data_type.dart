@@ -1,4 +1,4 @@
-// Dynamic -> Sebuah Type yang memungkinkan variabel menunjuk object type apapun
+// DYNAMIC -> Sebuah Type yang memungkinkan variabel menunjuk object type apapun
 // Dynamic tidak menampilkan field atau method type tertentu (kecuali yang umum)
 // Dynamic tidak mengecek field atau method yang disematkan (bisa terjadi error)
 // Dynamic dapat diperlakukan sebagai type tertentu dengan as atau is (if)

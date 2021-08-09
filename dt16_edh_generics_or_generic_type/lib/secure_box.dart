@@ -1,3 +1,5 @@
+/// Tipe data T hanya simbol untuk pengasosiasian, bisa diganti apa saja
+
 class SecureBox<T> {
   final T _data;
   final String _pin;

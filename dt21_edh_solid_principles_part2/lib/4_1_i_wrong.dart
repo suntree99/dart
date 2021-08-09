@@ -1,5 +1,5 @@
-// WRONG I-nterface Segregation Principle
-// [X] Membuat interface yang fieldnya tidak semua dibutuhkan class pemakainya
+/// WRONG I-nterface Segregation Principle
+/// [X] Membuat interface yang fieldnya tidak semua dibutuhkan class pemakainya
 
 // Interface
 abstract class IHeroAbility {

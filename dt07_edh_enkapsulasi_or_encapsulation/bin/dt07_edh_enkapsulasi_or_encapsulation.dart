@@ -1,3 +1,10 @@
+/// Encapsulation / Enkapsulasi
+/// - Data-data yang tidak perlu diakses dari luar harus disembunyikan
+/// - Data dibuat privat dengan underscore (_), tempatkan class di file terpisah
+/// - Menjaga keamanan data, dengan validasi type datanya dan nilainya
+/// - Membuat data dapat diset/diubah dengan Method/Property Setter
+/// - Membuat data dapat diakses/dilihat dengan Method/Property Getter
+
 import 'dart:io';
 import 'package:dt07_edh_enkapsulasi_or_encapsulation/persegi_panjang.dart';
 
